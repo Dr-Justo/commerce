@@ -12,8 +12,8 @@ const Home = () => {
       <Banner />
       <BannerBottom />
       <div className="max-w-container mx-auto px-4">
-        <Sale />
         <NewArrivals />
+        <Sale />
         <BestSellers />
         <ProductOfTheYear />
         <SpecialOffers />
