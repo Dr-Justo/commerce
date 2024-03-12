@@ -1,6 +1,8 @@
 # E-commerce Website
 
-## [Deployed website](https://64edc48b3b05b700087c1088--dreamy-daffodil-a61d4e.netlify.app/)
+A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service. 
+
+## [Deployed website](https://dr-justo.github.io/commerce/)
 
 # Tech Stack
 
