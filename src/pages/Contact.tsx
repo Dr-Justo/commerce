@@ -64,7 +64,7 @@ const Contact = () => {
       ) : (
         <form className="pb-20">
           <h1 className="font-titleFont font-semibold text-3xl">
-            Fill up a Form
+            Chat with us via E-mail
           </h1>
           <div className="w-[500px] h-auto py-6 flex flex-col gap-6">
             <div>

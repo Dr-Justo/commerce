@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { MdClose } from "react-icons/md";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { motion } from "framer-motion";
-import { logo, logoLight } from "../../assets/images/imageAssets";
+import { log, logoLight } from "../../assets/images/imageAssets";
 import { navBarList } from "../../constants/constants";
 
 const Header = () => {
@@ -24,12 +24,12 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="w-full h-20 bg-white sticky top-0 z-50 border-b-[1px] border-b-gray-200">
+    <div className="w-full h-16 bg-white sticky top-0 z-50 border-b-[1px] border-b-gray-200">
       <nav className="h-full px-4 max-w-container mx-auto relative">
         <div className="flex items-center justify-between h-full">
           <Link to="/">
             <div>
-              <img className="w-20 object-cover" src={logo} alt="logo" />
+              <img className="mx-6 w-10 object-cover" src={log} alt="logo" />
             </div>
           </Link>
           <div>

@@ -8,14 +8,14 @@ const FooterBottom = () => {
           <span className="text-md mr-[1px] mt-[2px] md:mt-0 text-center hidden md:inline-flex">
             <AiOutlineCopyright />
           </span>
-          Copyright 2023 | M&M shopping | All Rights Reserved @Mayonk|
+          Copyright 2023 | M&M shopping | All Rights Reserved |
           <a
             href="https://github.com/mayonk-kumar-git"
             target="_blank"
             rel="noreferrer"
           >
             <span className="ml-1 font-medium group-hover:text-primeColor">
-              Powered by Mayonk
+              Coded with love by JNicolao!
             </span>
           </a>
         </p>

@@ -1,4 +1,4 @@
-# Ecom Website
+# E-commerce Website
 
 ## [Deployed website](https://64edc48b3b05b700087c1088--dreamy-daffodil-a61d4e.netlify.app/)
 
@@ -14,7 +14,7 @@
 - ✅ Shopping Cart: Implement a cart section to display the added products, quantities, and total cost. Allow users to increase, decrease, or remove items from the cart. Display real-time updates of the cart total and item count.
 - ✅ Checkout: Implement a checkout process that calculates the total cost of items in the cart. Allow users to enter shipping information and payment details.
 - ✅ Responsive Design: Ensure the website is responsive and works seamlessly on both desktop and mobile devices.
-  Optimize the layout for different screen sizes.
+- ✅ Optimize the layout for different screen sizes.
 
 ### Additional Challenges(optional)
 

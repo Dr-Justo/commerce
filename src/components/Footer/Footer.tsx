@@ -39,12 +39,11 @@ const Footer = () => {
           <FooterListTitle title=" More about M&M Shop" />
           <div className="flex flex-col gap-6">
             <p className="text-base w-full xl:w-[80%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint
-              ab ullam, numquam nesciunt in.
+              An ecommerce platform created to practice skills in programming both frontend and backend and also the authorization of both the sign in and sign up pages. Happy Shopping!
             </p>
             <ul className="flex items-center gap-2">
               <a
-                href="https://mayonk-kumar.netlify.app"
+                href="https://jnicolao.vercel.app"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -53,7 +52,7 @@ const Footer = () => {
                 </li>
               </a>
               <a
-                href="https://github.com/mayonk-kumar-git"
+                href="https://github.com/JNicolao"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -62,7 +61,7 @@ const Footer = () => {
                 </li>
               </a>
               <a
-                href="https://www.facebook.com/mayank.kumarbehera.54/"
+                href="https://www.facebook.com/justine.nicolao/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -71,7 +70,7 @@ const Footer = () => {
                 </li>
               </a>
               <a
-                href="https://www.linkedin.com/in/mayonk-kumar/"
+                href="https://www.linkedin.com/in/JNicolao/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -80,7 +79,7 @@ const Footer = () => {
                 </li>
               </a>
               <a
-                href="https://twitter.com/MayonkKumar"
+                href="https://twitter.com/Jnicolao5"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -135,7 +134,7 @@ const Footer = () => {
           <FooterListTitle title="Subscribe to our newsletter." />
           <div className="w-full">
             <p className="text-center mb-4">
-              A at pellentesque et mattis porta enim elementum.
+              Enter your email to receive updates on our newsletters, coupons and offers.
             </p>
             {subscription ? (
               <motion.p
@@ -154,7 +153,7 @@ const Footer = () => {
                     value={emailInfo}
                     className="w-full h-12 border-b border-gray-400 bg-transparent px-4 text-primeColor text-lg placeholder:text-base outline-none"
                     type="text"
-                    placeholder="Insert your email ...*"
+                    placeholder="Insert your email address"
                   />
                   {errMsg && (
                     <p className="text-red-600 text-sm font-semibold font-titleFont text-center animate-bounce mt-2">
@@ -172,9 +171,8 @@ const Footer = () => {
             )}
 
             <img
-              className={`w-[80%] lg:w-[60%] mx-auto ${
-                subscription ? "mt-2" : "mt-6"
-              }`}
+              className={`w-[80%] lg:w-[60%] mx-auto ${subscription ? "mt-2" : "mt-6"
+                }`}
               src={paymentCard}
               alt="payment method"
             />
